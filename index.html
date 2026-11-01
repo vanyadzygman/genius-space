@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Сучасна пекарня</title>
   </head>
   <body>
@@ -11,25 +12,27 @@
       <a href="#"><img src="./images/logo.svg" alt="logo" /></a>
       <nav>
         <ul>
-          <li><a href="#">Франшиза</a></li>
-          <li><a href="#">Наші традиції</a></li>
-          <li><a href="#">Формати</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li>
+            <a class="link" href="#traditions-section">Наші традиції</a>
+          </li>
+          <li><a class="link" href="#chefs-section">Шеф-кухарі</a></li>
+          <li><a class="link" href="#formats-section">Формати</a></li>
+          <li><a class="link" href="#contacts-section">Контакти</a></li>
         </ul>
       </nav>
-      <button type="button">Замовити дзвінок</button>
+      <button class="button" type="button">Замовити дзвінок</button>
     </header>
     <main>
       <section>
-        <h1>Сучасна пекарня</h1>
+        <h1 class="hero-title"><span class="accent">Сучасна</span> пекарня</h1>
       </section>
-      <section>
-        <ul>
+      <section id="traditions-section">
+        <ul class="advantages-list">
           <li>Великий попит на ринку</li>
           <li>Доступні за бюджетом формати</li>
           <li>Досвідчена управлінська команда</li>
         </ul>
-        <h2>Новий формат традицій</h2>
+        <h2 class="section-title">Новий формат традицій</h2>
         <p>
           <span>shop bakery</span> — це пекарня, яка взяла все найкраще, і
           зберегла смак традиційної випічки та натуральність інгредієнтів.
@@ -44,8 +47,10 @@
           alt="Чоловік тримає коробку з випічкою"
         />
       </section>
-      <section>
-        <h2>Наші найкращі шеф-кухарі</h2>
+      <section id="chefs-section">
+        <h2 class="section-title">
+          Наші найкращі <span class="accent">шеф-кухарі</span>
+        </h2>
         <ul>
           <li>
             <article>
@@ -68,8 +73,8 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Формати</h2>
+      <section id="formats-section">
+        <h2 class="section-title">Формати</h2>
         <ul>
           <li>
             <article>
@@ -88,18 +93,27 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Приєднуйтесь до мережі пекарень</h2>
+      <section id="contacts-section">
+        <h2 class="section-title">Приєднуйтесь до мережі пекарень</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.289339504672!2d30.488698377034037!3d50.45667757159332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637c006b2d%3A0xaf86385f19996ff0!2z0YPQuy4g0KHQtdGH0LXQstGL0YUg0KHRgtGA0LXQu9GM0YbQvtCyLCA1NCwg0JrQuNC10LIsIDAyMDAw!5e1!3m2!1sru!2sua!4v1793539104866!5m2!1sru!2sua"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+        ></iframe>
       </section>
     </main>
     <footer>
       <nav>
         <a href="#"><img src="./images/logo.svg" alt="logo" /></a>
         <ul>
-          <li><a href="#">Франшиза</a></li>
-          <li><a href="#">Наші традиції</a></li>
-          <li><a href="#">Формати</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li><a class="link" href="#traditions-section">Наші традиції</a></li>
+          <li><a class="link" href="#chefs-section">Шеф-кухарі</a></li>
+          <li><a class="link" href="#formats-section">Формати</a></li>
+          <li><a class="link" href="#contacts-section">Контакти</a></li>
         </ul>
       </nav>
       <address>
@@ -130,7 +144,7 @@
           </li>
         </ul>
         <a href="#" target="_blank"> Політика конфіденційності </a>
-        <p>© 2022 Дані захищені</p>
+        <p>&copy; 2022 Дані захищені</p>
       </address>
     </footer>
   </body>
