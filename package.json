@@ -1,0 +1,21 @@
+{
+  "name": "genius-space",
+  "version": "1.0.0",
+  "description": "test project for education",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanyadzygman/genius-space.git"
+  },
+  "keywords": [],
+  "author": "Ivan Dzygman",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vanyadzygman/genius-space/issues"
+  },
+  "homepage": "https://github.com/vanyadzygman/genius-space#readme"
+}
